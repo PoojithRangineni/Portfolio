@@ -103,4 +103,3 @@ function Projects() {
 }
 
 export default Projects;
-sample
