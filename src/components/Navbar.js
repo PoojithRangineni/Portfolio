@@ -38,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <h2 style= {{color: "orange" }} > <b>RAPO</b> </h2>
+          <h2 style= {{color: "orange" }} > <b>RaptorSoft</b> </h2>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
