@@ -86,6 +86,16 @@ function Projects() {
               demoLink="https://poojithrangineni.github.io/socialmedia-sample/"     
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={social}
+              isBlog={false}
+              title="My React Store"
+              description="It is a Sample Project on Store with ReactJS."
+              ghLink="https://github.com/poojithrangineni.github.io/react-store"
+              demoLink="https://poojithrangineni.github.io/react-store-build/"     
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
@@ -93,3 +103,4 @@ function Projects() {
 }
 
 export default Projects;
+sample
