@@ -9,6 +9,7 @@ import jsstore from "../../Assets/Projects/jsstore.png";
 import website from "../../Assets/Projects/website.jpeg";
 import social from "../../Assets/Projects/social.jpeg";
 import reactstore from "../../Assets/Projects/ReactStore.png";
+import StockAnalysis from "../../Assets/Projects/StockAnalysis.png";
 
 function Projects() {
   return (
@@ -23,6 +24,15 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={StockAnalysis}
+              isBlog={false}
+              title="Stock Analysis"
+              description="Stock Analysis with Traditional Machine Learning and Deep Learning Models. Developed using Python."
+              ghLink="https://github.com/PoojithRangineni/Stock-Analysis-with-Traditional-Machine-Learning-and-Deep-Learning-Models"
+              //demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
             <ProjectCard
               imgPath={inventory}
               isBlog={false}
