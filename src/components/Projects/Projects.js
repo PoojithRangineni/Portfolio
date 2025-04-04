@@ -8,6 +8,7 @@ import store from "../../Assets/Projects/store.png";
 import jsstore from "../../Assets/Projects/jsstore.png";
 import website from "../../Assets/Projects/website.jpeg";
 import social from "../../Assets/Projects/social.jpeg";
+import reactstore from "../../Assets/Projects/ReactStore.png";
 
 function Projects() {
   return (
@@ -88,7 +89,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={social}
+              imgPath={reactstore}
               isBlog={false}
               title="My React Store"
               description="It is a Sample Project on Store with ReactJS."
