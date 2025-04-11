@@ -9,6 +9,7 @@ import jsstore from "../../Assets/Projects/jsstore.png";
 import website from "../../Assets/Projects/website.jpeg";
 import social from "../../Assets/Projects/social.jpeg";
 import reactstore from "../../Assets/Projects/ReactStore.png";
+import reacthello from "../../Assets/Projects/vite.svg";
 import StockAnalysis from "../../Assets/Projects/StockAnalysis.png";
 
 function Projects() {
@@ -106,6 +107,16 @@ function Projects() {
               description="It is a Sample Project on Store with ReactJS."
               ghLink="https://github.com/poojithrangineni.github.io/react-store"
               demoLink="https://poojithrangineni.github.io/react-store-build/"     
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={reacthello}
+              isBlog={false}
+              title="Hello world in react with Vite Method"
+              description="It is a Sample Project on Vite Method in ReactJS."
+              //ghLink="https://github.com/poojithrangineni.github.io/react-store"
+              demoLink="https://poojithrangineni.github.io/react-hello-world-dist/"     
             />
           </Col>
         </Row>
